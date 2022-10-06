@@ -347,9 +347,9 @@ header .container .links-ul ul li a:hover {
 /*Commit 1*/
 @media (max-width: 992px) {
   .gallary .container div img {
-   pointer-events: none;
+    pointer-events: none;
   }
-
+}
 .about-us {
   padding: 50px 0;
 }
@@ -558,15 +558,15 @@ header .container .links-ul ul li a:hover {
     padding: 10px 0;
   }
   .left .text,
-.right .text {
+  .right .text {
     width: 100% !important;
   }
   .right .text::before,
-.left .text::before {
+  .left .text::before {
     display: none;
   }
   .right .text::after,
-.left .text::after {
+  .left .text::after {
     display: none;
   }
 }
@@ -593,7 +593,8 @@ header .container .links-ul ul li a:hover {
   min-width: 150px;
   max-width: 220px;
 }
-.feature .container .feat::before, .feature .container .feat::after {
+.feature .container .feat::before,
+.feature .container .feat::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -688,11 +689,11 @@ header .container .links-ul ul li a:hover {
   width: 70%;
   margin: 0 auto;
 }
-.contact .formdiv form .radio input[type=radio] {
+.contact .formdiv form .radio input[type="radio"] {
   width: 25px;
   margin: 0 10px;
 }
-.contact .formdiv form input[type=submit] {
+.contact .formdiv form input[type="submit"] {
   background-color: var(--main-color);
   color: #fff;
   text-transform: capitalize;
@@ -725,4 +726,4 @@ footer {
   display: none;
   transition: display 0.5s;
   cursor: pointer;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
