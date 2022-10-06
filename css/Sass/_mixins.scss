@@ -1,0 +1,17 @@
+@use "./variable" as *;
+@mixin pstyle {
+  color: $pcolor;
+  line-height: 1.8;
+  width: 80%;
+}
+@mixin FlexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin FlexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

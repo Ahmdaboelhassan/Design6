@@ -1,0 +1,14 @@
+@use "./variable" as *;
+.main-title {
+  color: $textcolor;
+  margin: 0 auto 10vh;
+  padding: 20px 40px;
+  font-size: 4rem;
+  background: var(--main-color);
+  width: fit-content;
+}
+@media (max-width: 767px) {
+  .main-title {
+    font-size: 2rem;
+  }
+}

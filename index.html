@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sass Project</title>
+    <link rel="stylesheet" href="css/normal.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Start ToolBox -->
+    <div class="tool-box">
+      <div class="open">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="options">
+        <div class="opt">
+          <h4>Choose Your Favourite Color</h4>
+          <ul>
+            <li data-color="#2196f3" class="active"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#9e9e9e"></li>
+            <li data-color="#ff9800"></li>
+            <li data-color="#f44336"></li>
+          </ul>
+        </div>
+        <div class="opt">
+          <h4>Do Want Random Background ?</h4>
+          <div>
+            <button class="active" data-background="yes">Yes</button>
+            <button data-background="no">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End ToolBox -->
+    <!-- Start Landing -->
+    <div class="landing">
+      <!-- Start Header -->
+      <header>
+        <div class="container">
+          <div class="header-logo">
+            <a href="#"><img src="img/logo Rounded.png" alt="logo" /></a>
+          </div>
+          <div class="links-ul">
+            <div class="mega-menu">
+              <i class="fa-solid fa-bars"></i>
+              <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#timeline">TimeLine</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+      <div class="background"></div>
+      <div class="landing-text">
+        <h1><span>Welcome</span> To Our Wepsite</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad numquam
+          eum odio dolorem rem. Dignissimos nemo corporis vel adipisci dolores,
+          quae nostrum veritatis. Nobis, blanditiis itaque. Repellendus velit
+          adipisci tempore.
+        </p>
+      </div>
+      <div style="height: 100px"></div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Gallery -->
+    <div class="gallary" id="gallery">
+      <div class="popup">
+        <div class="img-holder">
+          <img src="img/img07.jpg" alt="popup" />
+          <button>X</button>
+        </div>
+      </div>
+      <div class="container">
+        <div><img src="img/img06.jpg" alt="img" /></div>
+        <div><img src="img/img07.jpg" alt="img" /></div>
+        <div><img src="img/img08.jpg" alt="img" /></div>
+        <div><img src="img/img09.jpg" alt="img" /></div>
+        <div><img src="img/img10.jpg" alt="img" /></div>
+        <div><img src="img/img11.jpg" alt="img" /></div>
+        <div><img src="img/img012.jpg" alt="img" /></div>
+        <div><img src="img/img14.jpg" alt="img" /></div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start About Us -->
+    <div class="about-us" id="about-us">
+      <h1 class="main-title">About Us</h1>
+      <div class="container">
+        <div class="text">
+          <h2>Discover Your Self</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium quaerat eius necessitatibus iste amet quasi voluptas
+            ratione? Incidunt quasi obcaecati ullam mollitia inventore, vitae
+            quibusdam officia fuga ad. Esse, tempore!
+          </p>
+        </div>
+        <div class="sectionimg"><img src="img/Aboutus.jpg" alt="logo" /></div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Skills -->
+    <div class="skills" id="skills">
+      <h1 class="main-title">Our Skills</h1>
+      <div class="container">
+        <div><img src="img/progress.jpg" alt="" /></div>
+        <div class="progress">
+          <div>
+            <span>HTML</span>
+            <div><span data-width="85%"></span></div>
+          </div>
+          <div>
+            <span>CSS</span>
+            <div><span data-width="75%"></span></div>
+          </div>
+          <div>
+            <span>JS</span>
+            <div><span data-width="65%"></span></div>
+          </div>
+          <div>
+            <span>C#</span>
+            <div><span data-width="90%"></span></div>
+          </div>
+          <div>
+            <span>SASS</span>
+            <div><span data-width="77%"></span></div>
+          </div>
+          <div>
+            <span>Data Base</span>
+            <div><span data-width="88%"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Time Line -->
+    <div class="timeline" id="timeline">
+      <h1 class="main-title">Time Line</h1>
+      <div class="container">
+        <span class="year"> 2020 </span>
+        <div class="left">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <span class="year"> 2021 </span>
+        <div class="left">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <span class="year"> 2022 </span>
+        <div class="right">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+              recusandae! Reprehenderit facilis obcaecati maiores, in recusandae
+              ducimus reiciendis minus, quia cumque ad aspernatur harum officiis
+              praesentium dicta cupiditate, libero incidunt!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Time Line -->
+    <!-- Start Our Features -->
+    <div class="feature" id="feature">
+      <h1 class="main-title">Our Features</h1>
+      <div class="container">
+        <div class="feat">
+          <i class="fa-solid fa-palette"></i>
+          <span>Beautiful Design</span>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-list-check"></i>
+          <span>Complate Your Tasks </span>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-clock"></i>
+          <span>Save Your Time</span>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-network-wired"></i>
+          <span>Network With Others</span>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-circle-nodes"></i>
+          <span>Easy Communcations</span>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-ethernet"></i>
+          <span>Speed Up Your Work</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Features -->
+    <!-- Start Contact Us -->
+    <div class="contact" id="contact">
+      <div class="backgrounddiv"></div>
+      <div class="formdiv">
+        <h1 class="main-title">Contact us</h1>
+        <form>
+          <input id="nameinput" type="text" placeholder="Your Name ..." />
+          <input id="emailinput" type="email" placeholder="Your Email ..." />
+          <input
+            id="passwordinput"
+            type="Password"
+            placeholder="Your Password ..."
+          />
+          <textarea placeholder="Any Notices To Improve Our Site"></textarea>
+          <div class="selected">
+            <input list="list" placeholder="Your Counry" />
+            <datalist id="list">
+              <option value="USA"></option>
+              <option value="German"></option>
+              <option value="Egypt"></option>
+              <option value="UEA"></option>
+              <option value="France"></option>
+              <option value="Spain"></option>
+              <option value="England"></option>
+              <option value="Saudi Arabia"></option>
+            </datalist>
+            <label for="select"></label>
+            <select id="select">
+              <option value="Python">Python</option>
+              <option value="JS">JS</option>
+              <option value="C++">C++</option>
+              <option value="C#">C#</option>
+              <option value="JAVA">JAVA</option>
+            </select>
+          </div>
+          <div class="radio">
+            <input type="radio" name="gender" id="man" />
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="woman" />
+            <label for="woman">Woman</label>
+          </div>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+    <!--Start Footer -->
+    <footer>Made With Ahmed Abo Elhassan</footer>
+    <!--End Footer -->
+    <!-- Start Scroll To Top -->
+    <button class="scrolltop"><i class="fa-solid fa-chevron-up"></i></button>
+    <!-- End Scroll To Top -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
